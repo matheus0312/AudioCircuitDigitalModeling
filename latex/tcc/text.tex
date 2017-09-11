@@ -1,0 +1,207 @@
+\input{preamble.tex}
+
+\titulo{Modelagem de Sistemas Não Lineares de Áudio Através de Espaço de Estados e Filtros Digitais Wave}
+\autor
+{
+	UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
+	ESCOLA DE ENGENHARIA\\
+	DEPARTAMENTO DE ENGENHARIA ELÉTRICA\\
+	\vspace*{4\baselineskip} 
+	MATHEUS OLIVEIRA DA SILVA
+}
+\local{Porto Alegre}
+\data{2017}
+\orientador{Prof. Dr. Adalberto Schuck Jr.}
+\coorientador{}
+\instituicao{}
+\preambulo{Projeto de Diplomação apresentado ao Departamento de Engenharia Elétrica da Escola de Engenharia da Universidade Federal do Rio Grande do Sul, como requisito parcial para Graduação em Engenharia Elétrica}
+
+\makeindex
+\begin{document}
+\selectlanguage{brazil}
+\frenchspacing 
+
+\imprimircapa
+\imprimirfolhaderosto*
+
+%\begin{fichacatalografica}
+%	\includepdf{fichaCatalog.pdf}
+%\end{fichacatalografica}
+
+%=========================================================================
+% FOLHA DE APROVAÇÃO
+%=========================================================================
+
+\begin{folhadeaprovacao}
+	\begin{center}
+		{\ABNTEXchapterfont\large{MATHEUS OLIVEIRA DA SILVA}}
+		
+		\vspace*{\fill}
+		\begin{center}
+			\ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+		\end{center}
+		
+		\vspace*{\fill}
+		\hspace{.45\textwidth}
+		\begin{minipage}{.5\textwidth}
+			\imprimirpreambulo
+		\end{minipage}%
+	\end{center}
+	
+	\assinatura{\textbf{\imprimirorientador} \\ Orientador - UFRGS} 
+	\todo{Atualizar Chefe do Departamento}
+	\assinatura{\textbf{Prof. Dr. Ály Ferreira Flores Filho} \\ Chefe do Departamento de Engenharia Elétrica (DELET) - UFRGS}
+	
+	\todo{Atualizar data da apresentação}
+	\begin{center}
+		Aprovado em 15 de Janeiro de 2018.
+	\end{center}
+	
+	BANCA EXAMINADORA	
+	\assinatura{\textbf{Banca 1} \\ UFRGS}
+	\assinatura{\textbf{Banca 2} \\ UFRGS}
+	\assinatura{\textbf{Banca 3} \\ UFRGS}
+\end{folhadeaprovacao}
+
+%=========================================================================
+% DEDICATÓRIA
+%=========================================================================
+
+\begin{dedicatoria}
+	\vspace*{\fill}
+	\centering
+	\noindent
+	\textit{tbd} \vspace*{\fill}
+\end{dedicatoria}
+
+%=========================================================================
+% AGRADECIMENTOS
+%=========================================================================
+
+\begin{agradecimentos}
+tbd
+\end{agradecimentos}
+
+%=========================================================================
+% EPÍGRAFE
+%=========================================================================
+
+\begin{epigrafe}
+	\vspace*{\fill}
+	\begin{flushright} 
+		\textit{We live in a society \\ exquisitely dependent on science and technology,\\ in which hardly anyone \\ knows anything about science and technology.}\\ \vspace{\onelineskip}
+		Carl Sagan, The Demon-Haunted World
+	\end{flushright}
+\end{epigrafe}
+
+%=========================================================================
+% RESUMOS
+%=========================================================================
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+	Distorções em sistemas de áudio causadas por não linearidades são responsáveis pela sonoridade característica de alguns estilos musicais, por isso é importante seu estudo e compreensão. Estes "defeitos" são originalmente causados por sistemas valvulados analógicos, porém estes são de difícil mobilidade e grandes consumidores de energia. Con o poder computacional disponível atualmente é possível a reprodução destes sistemas analógicos digitalmente de forma ininteligível para o ouvido humano. Assim é atraente a ideia de simular estes com o objetivo de obter sistemas mais portáteis e econômicos.
+
+	\vspace{\onelineskip}
+	\textbf{Palavras-chave}: Sistemas não lineares. Filtros Digitais Wave. Espaço de Estados.
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+	
+   \vspace{\onelineskip}
+   \noindent 
+   \textbf{Keywords}:
+ \end{otherlanguage*}
+\end{resumo}
+
+%=========================================================================
+% SUMÁRIOS
+%=========================================================================
+
+% inserir lista de ilustrações
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+% inserir lista de tabelas
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+
+% inserir lista de abreviaturas e siglas
+\begin{siglas}
+	\item[LIT]		\emph{Linear Invariante no Tempo}
+	\item[SNL]		\emph{Sistema Não Linear}
+
+\end{siglas}
+
+% inserir o sumario
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+\textual
+%=========================================================================
+% INTRODUÇÃO
+	\chapter{Introdução}
+%=========================================================================
+
+Sistemas lineares invariantes no tempo (LIT) já foram amplamente estudados por autores conhecidos como \citeonline{Haykin2003} e  \citeonline{Oppenheim1997}, tanto são que esses autores já fazem parte da bibliografia básica de disciplinas de graduação. O grande atrativo para o estudo de sistemas LIT é a simplicidade com que se pode obter a saída esperada para uma entrada tendo a resposta impulsiva do sistema, já que as únicas alterações causadas por sistemas LTI são na fase e amplitude do sinal de entrada.
+
+Sistemas não lineares (SNL) por outro lado, apresentam saídas mais complexas pois adicionam à saída do sinal componentes com frequências múltiplas às do sinal de entrada, que são conhecidas como harmônicas. De acordo com \citeonline{Zolzer2002} efeitos não lineares são usados por músicos em diversos dispositivos como microfones amplificadores e sintetizadores.
+
+O princípio do uso de SNLs para áudio foi com a construção de amplificadores baseados em válvulas termiônicas a partir da década de 1950 como indicado por \citeonline{Ferreira2016}. O problema destes componentes é seu peso e consumo de energia, assim foi natural sua substituição por componentes semicondutores mais leves, baratos e confiáveis, porém até hoje as distorções geradas por válvulas são vistas como superiores às geradas por semicondutores por audiófilos, um estudo sobre estas diferenças foi feito por \citeonline{Hamm1973}. Para tentar emular o som gerado por estas válvulas termiônicas em sistemas semicondutores passou a ser comum a construção de pedais de efeitos que são ligados em série com o sistemas de áudio, tendo esses a vantagem de serem mais baratos e de mais fácil transporte. O próximo passo nessa evolução é o uso de sistemas digitais para a modelagem dessas não linearidades com o objetivo de facilitar ainda mais o uso dessa tecnologia, essa enfim será a proposta deste trabalho.
+
+Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de caixa branca, onde se tem total conhecimento do circuito sendo modelado; caixa cinza, onde se usa algum conhecimento do circuito para a modelagem; e caixa preta, onde não é utilizado nenhuma característica do circuito para a modelagem. \citeonline{Eichas2015} propões um modelo de caixa preta onde um ruído branco é injetado no SNL a ser modelado e a saída deste é comparada com a de um sistema paramétrico que é adaptado de maneira a minimizar o erro quadrático entre ambas. 
+
+%=========================================================================
+% FUNDAMENTAÇÃO TEÓRICA
+	\chapter{Fundamentação Teórica}
+%=========================================================================
+
+
+
+%=========================================================================
+% METODOLOGIA EXPERIMENTAL
+	\chapter{Metodologia Experimental}
+%=========================================================================
+
+%=========================================================================
+% RESULTADOS E DISCUSSÕES
+	\chapter{Resultados e Discussões}
+%=========================================================================
+
+%=========================================================================
+% CONCLUSÃO
+	\chapter{Conclusões}
+%=========================================================================
+
+%=========================================================================
+% PROPOSTA DE TRABALHOS FUTUROS
+	\chapter{Propostas de Trabalhos Futuros}
+%=========================================================================
+
+%=========================================================================
+% REFERÊNCIAS BIBLIOGRÁFICAS
+	\postextual
+	\bibliography{references}
+%=========================================================================
+
+%=========================================================================
+% APÊNDICES
+	\begin{apendicesenv}
+	\partapendices
+%=========================================================================
+\end{apendicesenv}
+
+%=========================================================================
+% ANEXOS
+	\begin{anexosenv}
+	\partanexos
+%=========================================================================
+\end{anexosenv}
+
+\end{document}

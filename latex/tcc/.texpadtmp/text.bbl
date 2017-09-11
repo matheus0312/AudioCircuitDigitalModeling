@@ -1,0 +1,47 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.5 }
+
+\bibitem[Eichas, M{\"o}ller e Z{\"o}lzer 2015]{Eichas2015}
+\abntrefinfo{Eichas, M{\"o}ller e Z{\"o}lzer}{EICHAS; M{\"O}LLER;
+  Z{\"O}LZER}{2015}
+{EICHAS, F.; M{\"O}LLER, S.; Z{\"O}LZER, U. Block-oriented modeling of
+  distortion audio effects using iterative minimization.
+\emph{Proc. Digital Audio Effects (DAFx-15), Trondheim, Norway}, 2015.}
+
+\bibitem[Ferreira 2016]{Ferreira2016}
+\abntrefinfo{Ferreira}{FERREIRA}{2016}
+{FERREIRA, F.~K. \emph{Modelagem de sistemas de {\'a}udio n{\~a}o lineares a
+  partir do m{\'e}todo da varredura senoidal}. 2016.}
+
+\bibitem[Hamm 1973]{Hamm1973}
+\abntrefinfo{Hamm}{HAMM}{1973}
+{HAMM, R.~O. Tubes versus transistors-is there an audible difference.
+\emph{Journal of the audio engineering society}, Audio Engineering Society,
+  v.~21, n.~4, p. 267--273, 1973.}
+
+\bibitem[Haykin e Veen 2003]{Haykin2003}
+\abntrefinfo{Haykin e Veen}{HAYKIN; VEEN}{2003}
+{HAYKIN, S.~S.; VEEN, B. V. \emph{Signals and systems}. 2nd ed. ed. New York:
+  Wiley, 2003.
+ISBN 0471164747 (cloth : alk. paper). Dispon{\'\i}vel em:
+  \url{http://www.loc.gov/catdir/description/wiley0310/2002027040.html}.}
+
+\bibitem[Oppenheim, Willsky e Nawab 1997]{Oppenheim1997}
+\abntrefinfo{Oppenheim, Willsky e Nawab}{OPPENHEIM; WILLSKY; NAWAB}{1997}
+{OPPENHEIM, A.; WILLSKY, A.; NAWAB, S. \emph{Signals and Systems}. Prentice
+  Hall, 1997.  (Prentice-Hall signal processing series).
+ISBN 9780138147570. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=LwQqAQAAMAAJ}.}
+
+\bibitem[Z{\"o}lzer e Amatriain 2002]{Zolzer2002}
+\abntrefinfo{Z{\"o}lzer e Amatriain}{Z{\"O}LZER; AMATRIAIN}{2002}
+{Z{\"O}LZER, U.; AMATRIAIN, X. \emph{DAFX: digital audio effects}. Chichester:
+  Wiley, 2002.
+ISBN 0471490784. Dispon{\'\i}vel em:
+  \url{http://www.loc.gov/catdir/description/wiley036/2002280336.html}.}
+
+\end{thebibliography}
