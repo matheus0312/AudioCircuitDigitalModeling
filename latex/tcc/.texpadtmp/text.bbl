@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
+\bibitem[Bogason 2017]{Bogason2017}
+\abntrefinfo{Bogason}{BOGASON}{2017}
+{BOGASON, O. \emph{Wave Digital Notebook}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://github.com/multivac61/wave\_digital\_notebook/blob/master/WDFs\_in\_circuit\_emulation.ipynb}.}
+
 \bibitem[Eichas, M{\"o}ller e Z{\"o}lzer 2015]{Eichas2015}
 \abntrefinfo{Eichas, M{\"o}ller e Z{\"o}lzer}{EICHAS; M{\"O}LLER;
   Z{\"O}LZER}{2015}
@@ -16,6 +22,11 @@
 \abntrefinfo{Ferreira}{FERREIRA}{2016}
 {FERREIRA, F.~K. \emph{Modelagem de sistemas de {\'a}udio n{\~a}o lineares a
   partir do m{\'e}todo da varredura senoidal}. 2016.}
+
+\bibitem[Fettweis 1986]{Fettweis1986}
+\abntrefinfo{Fettweis}{FETTWEIS}{1986}
+{FETTWEIS, A. Wave digital filters: Theory and practice.
+v.~74, p. 270 -- 327, 03 1986.}
 
 \bibitem[Hamm 1973]{Hamm1973}
 \abntrefinfo{Hamm}{HAMM}{1973}
@@ -30,12 +41,24 @@
 ISBN 0471164747 (cloth : alk. paper). Dispon{\'\i}vel em:
   \url{http://www.loc.gov/catdir/description/wiley0310/2002027040.html}.}
 
+\bibitem[Kubin 1985]{Kubin1985}
+\abntrefinfo{Kubin}{KUBIN}{1985}
+{KUBIN, G. Wave digital filters: Voltage, current, or power waves? In:
+  \emph{ICASSP '85. IEEE International Conference on Acoustics, Speech, and
+  Signal Processing}. [S.l.: s.n.], 1985. v.~10, p. 69--72.}
+
 \bibitem[Oppenheim, Willsky e Nawab 1997]{Oppenheim1997}
 \abntrefinfo{Oppenheim, Willsky e Nawab}{OPPENHEIM; WILLSKY; NAWAB}{1997}
 {OPPENHEIM, A.; WILLSKY, A.; NAWAB, S. \emph{Signals and Systems}. Prentice
   Hall, 1997.  (Prentice-Hall signal processing series).
 ISBN 9780138147570. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=LwQqAQAAMAAJ}.}
+
+\bibitem[Yeh e Smith 2008]{Yeh2008}
+\abntrefinfo{Yeh e Smith}{YEH; SMITH}{2008}
+{YEH, D.; SMITH, J. Simulating guitar distortion circuits using wave digital
+  and nonlinear state-space formulations.
+09 2008.}
 
 \bibitem[Z{\"o}lzer e Amatriain 2002]{Zolzer2002}
 \abntrefinfo{Z{\"o}lzer e Amatriain}{Z{\"O}LZER; AMATRIAIN}{2002}

@@ -2,7 +2,7 @@ clear all
 
 % Defines the time of simulation
 n = 2^16;
-f = 80;
+f = 10;
 T = 1/f;
 t = linspace(0,f*2*pi,n);
 
@@ -36,29 +36,31 @@ D2s = zeros(1,n);
 D2p = zeros(1,n);
 Dd = zeros(1,n);
 Up = zeros(1,n);
+Uch = zeros(1,n);
 Nm = zeros(1,10);
 
 for i = 2:n
     Uv = V(i);
-    Uch = D2s(n-1);
-    Us = -(Uv+Uch);
+    Uch(i) = D2s(n-1);
+    Us = -(Uv+Uch(i));
     Ucl = D2p(n-1);
     Up(i) = l1p*Us + l2p*Ucl;
     
+    D(i) = Up(i) + 2* Rd*Is-2*0.5*Vd*
 %     Tries to solve the nonlinearity using Newton' method (unsuccessfully)
     for j=2:50
         Nm(j) = ((2*Is*Rd*(Nm(j-1)+Up(i))+Vd*(Nm(j-1)-Up(i)))*exp(((Nm(j-1)/2)+(Up(i)/2))/Vd))/(Is*Rd*(exp((Nm(j-1)+Up(i))/Vd)+1)+exp(((Nm(j-1)/2)+(Up(i)/2))/Vd)*Vd);
         Dd(i) = Nm(j);
     end
-    Dd (i) = 0;
+%     Dd (i) = 0;
 
     D1p = Up(i) + Dd(i) - Us;
     D2p(i) = Up(i) + Dd(i) - Ucl;
     D1s = Uv - l1s*(D1p-Us);
-    D2s(i) = Uch - l2s*(D1p-Us);
+    D2s(i) = Uch(i) - l2s*(D1p-Us);
 end
 
-Vo = (Up-Dd)/2;
+Vo = (Uch-D2p)/2;
 
 
 

@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/Matheus/Agora Vai/latex/tcc/.texpadtmp/text.aux
+The top-level auxiliary file: /Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -13,6 +13,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: ../references.bib
+Warning--entry type for "Bogason2017" isn't style-file defined
+--line 20 of file ../references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -22,44 +24,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 7 entries,
+You've used 11 entries,
             6714 wiz_defined-function locations,
-            1244 strings with 10511 characters,
-and the built_in function-call counts, 9090 in all, are:
-= -- 1094
-> -- 198
-< -- 182
-+ -- 295
-- -- 60
-* -- 574
-:= -- 1184
-add.period$ -- 26
-call.type$ -- 7
-change.case$ -- 66
-chr.to.int$ -- 13
-cite$ -- 6
-duplicate$ -- 766
-empty$ -- 403
-format.name$ -- 280
-if$ -- 1889
+            1276 strings with 11276 characters,
+and the built_in function-call counts, 13629 in all, are:
+= -- 1570
+> -- 277
+< -- 284
++ -- 418
+- -- 85
+* -- 844
+:= -- 1745
+add.period$ -- 41
+call.type$ -- 11
+change.case$ -- 97
+chr.to.int$ -- 23
+cite$ -- 10
+duplicate$ -- 1201
+empty$ -- 638
+format.name$ -- 396
+if$ -- 2830
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 124
-newline$ -- 37
-num.names$ -- 30
-pop$ -- 185
+missing$ -- 192
+newline$ -- 56
+num.names$ -- 50
+pop$ -- 281
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 40
 quote$ -- 0
-skip$ -- 843
+skip$ -- 1285
 stack$ -- 1
-substring$ -- 363
-swap$ -- 283
-text.length$ -- 6
+substring$ -- 562
+swap$ -- 446
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 1
 warning$ -- 0
-while$ -- 44
+while$ -- 71
 width$ -- 0
-write$ -- 103
+write$ -- 162
+(There was 1 warning)

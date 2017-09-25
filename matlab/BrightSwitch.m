@@ -6,7 +6,7 @@ t = linspace(0,f*2*pi,n);
 
 
 % Volume adjustment
-vol = 0.99;
+vol = 0.01;
 % Component values as indicated in paper David2008
 C = 120e-12;
 k = 1e6;
