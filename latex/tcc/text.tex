@@ -1,6 +1,6 @@
 \input{preamble.tex}
 
-\titulo{Modelagem de Sistemas Não Lineares de Áudio Através de Espaço de Estados e Filtros Digitais Wave}
+\titulo{Modelagem de Sistemas Não Lineares de Áudio Através de Filtros Digitais de Onda}
 \autor
 {
 	UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL\\
@@ -71,7 +71,7 @@
 	\vspace*{\fill}
 	\centering
 	\noindent
-	\textit{Aos que me apoiaram durante minha graduação, \\e também aos que duvidaram de minha capacidade, \\me dando forças para prová-los errados} \vspace*{\fill}
+	\textit{Aos que me apoiaram durante minha graduação, \\ mas também aos que duvidaram de minha capacidade, \\me dando forças para prová-los errados} \vspace*{\fill}
 \end{dedicatoria}
 
 %=========================================================================
@@ -104,7 +104,7 @@ tbd
 	Distorções em sistemas de áudio causadas por não linearidades são responsáveis pela sonoridade característica de alguns estilos musicais, por isso é importante seu estudo e compreensão. Estes "defeitos" são originalmente causados por sistemas valvulados analógicos, porém estes são de difícil mobilidade e grandes consumidores de energia. Con o poder computacional disponível atualmente é possível a reprodução destes sistemas analógicos digitalmente de forma ininteligível para o ouvido humano. Assim é atraente a ideia de simular estes com o objetivo de obter sistemas mais portáteis e econômicos.
 
 	\vspace{\onelineskip}
-	\textbf{Palavras-chave}: Sistemas não lineares. Filtros Digitais Wave. Espaço de Estados.
+	\textbf{Palavras-chave}: Sistemas não lineares. Filtros Digitais de Onda.
 \end{resumo}
 
 % resumo em inglês
@@ -136,6 +136,7 @@ tbd
 	\item[LIT]		\emph{Linear Invariante no Tempo}
 	\item[SNL]		\emph{Sistema Não Linear}
 	\item[FDO]		\emph{Filtro Digital de Onda}
+	\item[PLR]		\emph{Porta Livre de Reflexão}
 
 \end{siglas}
 
@@ -194,7 +195,7 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 	
 	Deste ponto em diante neste trabalho, essas grandezas serão definidas como parte do domínio K (de acordo com as leis de Kirchhoff). 
 	
-	\cite{Fettweis1986}	Dentro da teoria de FDO é definido um novo domínio denominado W (do inglês Wave) onde componentes e suas conexões são definidos de acordo com ondas incidentes e refletidas de suas portas e pela resistência dessas portas. As variáveis de corrente e tensão do domínio K são mapeadas como onda de tensão incidente \textit{A} e onda refletida \textit{B} no domínio W conforme indicado pelas transformações lineares nas Equações \ref{eqOndaADefinicao} e \ref{eqOndaBDefinicao}, e a descrição de um componente qualquer no domínio W é indicada na Figura \todo{Adicionar figura mostrando componente no domínio W}.
+	\cite{Fettweis1986}	Dentro da teoria de FDO é definido um novo domínio denominado W (do inglês Wave) onde componentes e suas conexões são definidos de acordo com ondas incidentes e refletidas de suas portas e pela resistência dessas portas. As variáveis de corrente e tensão do domínio K são mapeadas como onda de tensão incidente $A$ e onda refletida $B$ no domínio W conforme indicado pelas transformações lineares nas Equações \ref{eqOndaADefinicao} e \ref{eqOndaBDefinicao}, e a descrição de um componente qualquer no domínio W é indicada na Figura \todo{Adicionar figura mostrando componente no domínio W}.
 	
 	\begin{equation}
 	\label{eqOndaADefinicao}
@@ -223,7 +224,7 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 	%=========================================================================
 	\subsection{Componentes de uma porta no domínio W}
 	%=========================================================================
-	Neste capítulo será definida a descrição no domínio W para resistores, capacitores, fontes de tensão com resistência em série e fontes de corrente com resistência em série, pois estes são os componentes relevantes para este trabalho. Essas formulações, e outras para componentes passivos de duas portas, são definidos em \citeonline{Yeh2008} e um guia bastante didático para a obtenção destes valores é dado em \citeonline{Bogason2017}.
+	Neste capítulo será definida a descrição no domínio W para resistores, capacitores, fontes de tensão com resistência em série e fontes de corrente com resistência em série, pois estes são os componentes relevantes para este trabalho. Essas formulações, e outras para componentes passivos de duas portas, são definidos em \citeonline{Yeh2008} e \citeonline{YehTutorial2008} e um guia bastante didático para a obtenção destes valores é dado em \citeonline{Bogason2017}.
 	 
 	 	%=========================================================================
 		\subsubsection{Resistores}
@@ -233,26 +234,26 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 	
 	\begin{equation}
 		\label{eqDefinicaoResistor}
-		Z_r = \frac{V}{I}
+		R = \frac{V}{I}
 	\end{equation}
 	
 	Utilizando-se das relações entre tensão, corrente e as variáveis de onda do domínio W definidas nas Equações \ref{eqTensaoDefinicao} e \ref{eqCorrenteDefinicao}, pode-se obter os valores para \textit{A} e \textit{B} conforme indicado nas Equações \ref{edDefinicaoResistorW1} e \ref{eqDefinicaoResistorW2}.
 	
 	\begin{equation}
 		\label{edDefinicaoResistorW1}
-		Z_r = \frac{\frac{A+B}{2}}{\frac{A-B}{2.R_p}}
+		R = \frac{\frac{A+B}{2}}{\frac{A-B}{2.R_p}}
 	\end{equation}  
 	
 	\begin{equation}
 		\label{eqDefinicaoResistorW2}
-		B = \frac{Z_r-R_p}{Z_r+R_p}.A
+		B = \frac{R-R_p}{Z_r+R_p}.A
 	\end{equation}
 	
 	A Equação \ref{eqDefinicaoResistorW2} pode ser escrita no domínio do tempo conforme a Equação \ref{eqDefinicaoResistorTempo}
 	
 	\begin{equation}
 		\label{eqDefinicaoResistorTempo}
-		b[n] = \frac{Z_r-R_p}{Z_r+R_p}.a[n]
+		b[n] = \frac{R-R_p}{R+R_p}.a[n]
 	\end{equation}
 	
 	De acordo com a Equação \ref{eqDefinicaoResistorTempo} a onda refletida de um resistor no domínio W $B$ é relacionada instantaneamente à onda incidente $A$ por um fator $\frac{Z_r-R_p}{Z_r+R_p}$, é desejável que essa relação direta não exista de maneira a facilitar que a condição 1 de realização de filtros digitais, conforme indicado na Seção \ref{secCondicoesDeRealizacao}, seja satisfeita, para isso se define a resistência de entrada $R_p$ no domínio W como sendo igual a resistência $Z_r$ do domínio K. Desta maneira um resistor é completamente definido no domínio W pelas Equações \ref{eqBResistorDominioW} e \ref{eqRResistorDominioW} e a Figura \ref{figResistorDominioW} mostra o funcionamento interno deste componente e seu símbolo.
@@ -263,7 +264,7 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 	\end{equation}   
 	\begin{equation}
 		\label{eqRResistorDominioW}
-		R_p = Z_r
+		R_p = R
 	\end{equation}
 	
 	\begin{figure}[h]
@@ -427,8 +428,124 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 	\end{figure}
 	
 	
+		%=========================================================================
+		\subsubsection{Resumo dos componentes de uma porta}
+		%=========================================================================
+	A Tabela \ref{tbd} apresente em resumo as características no domínio W para os componentes de 2 portas que serão utilizados neste trabalho.
+	
+	\todo{adicionar tabela com resumo das características no domínio W para 2 portas}
+	
+	%=========================================================================
 	\subsection{Conexões no domínio W}
+	%=========================================================================
 	\label{secConexoesNoDominioW}
+	
+	Nesta seção serão demonstradas as conversões de conexões em série e paralelo do domínio K para o domínio W. Novamente como referência é indicado os trabalhos de \citeonline{Bogason2017} e \citeonline{Yeh2008} \citeonline{YehTutorial2008} .
+	
+		%=========================================================================
+		\subsubsection{Conexões em série}
+		%=========================================================================
+		
+	Para uma conexão em série de \textit{n} elementos conforme indicado na Figura \ref{TBD} é sabido que as correntes e tensões se comportam conforme o indicado nas Equações \ref{eqDefinicaoSerieCorrente} e \ref{eqDefinicaoSerieTensao}.
+	
+	\todo{Transformar essas equações em somatórios}
+	
+	\begin{equation}
+	\label{eqDefinicaoSerieCorrente}
+		I_1 = I_2 = ... = I_n
+	\end{equation}
+	
+	\begin{equation}
+	\label{eqDefinicaoSerieTensao}
+		V_1 + V_2 + ... + V_n = 0	
+	\end{equation}
+	
+	Utilizando-se a definição da Equação \ref{eqTensaoDefinicao} na Equação \ref{eqDefinicaoSerieTensao} e depois utilizando a igualdade dada na Equação \ref{eqDefinicaoSerieCorrente}, tem-se as Equações \ref{eqDefinciaoSerie1} e \ref{eqDefinciaoSerie2}
+	
+	\begin{equation}
+		\label{eqDefinciaoSerie1}
+		(A_1-R_1.I_1) + (A_2-R_2.I_2) + ... + (A_n-R_n.I_n) = 0 
+	\end{equation}
+	
+	\begin{equation}
+		\label{eqDefinicaoSerie2}
+		A_1+A_2+...+A_n -I.(R_1+R_2+...+R_n) = 0
+	\end{equation}
+	
+	Sabendo que todas as correntes são iguais, pode-se então obter a onda refletida para uma porta \textit{i} qualquer aplicando a Equação \ref{eqCorrenteDefinicao} na Equação \ref{eqDefinciaoSerie2} tendo como resultado as Equações \ref{eqDefinicaoSerie3} e \ref{eqDefinicaoSerie4}.
+	
+	\begin{equation}
+		\label{eqDefinicaoSerie3}
+		I_i = \frac{A_i - B_i}{2.R_i} = \frac{A_1+A_2+...+A_n}{R_1+R_2+...+R_n}
+	\end{equation}
+	
+	\begin{equation}
+		\label{eqDefinicaoSerie4}
+		B_i = A_i -\frac{A_1+A_2+...+A_n}{R_1+R_2+...+R_n}.2.R_i 
+	\end{equation}
+	
+	Com o objetivo de facilitar a computação das reflexões é comum definir um parâmetro de reflexão que é calculado para uma porta qualquer $i$ conforme a Equação \ref{} e então a onda refletida nesta porta é dada pela Equação \ref{}:
+	
+	\begin{equation}
+		\gamma_i = \frac{2.R_i}{R_1+R_2+...+R_n}
+	\end{equation}
+	
+	\begin{equation}
+		B_i = A_i -\gamma_i.(A_1+A_2+...+A_n)
+	\end{equation}
+	
+	Um fato importante sobre os parâmetros de reflexão $\gamma$ é que a soma desse parâmetro para todas as portas de um conector qualquer deve ser igual a 2.
+	
+	Segundo a Equação \ref{eqDefinciaoSerie4} há uma relação instantânea entre a onda incidente e a onda refletida o que como já foi dito é indesejável. Quando se faz a conexão de dois conectores série (ou um conector série e um paralelo como será visto nas próximas seções), há a criação de loops sem delay, o que torna o filtro digital não realizável. Para evitar esse problema é possível definir uma porta no conector que não terá uma relação instantânea entre onda incidente e refletida, essa porta é denominada porta livre de reflexão (PLR) e é identificada pelo "t" na conexão indicada na Figura \ref{}. 
+	
+	Para que uma porta seja PLR é necessário forçar sua resitência $R_p$ a ser a soma das resistências das demais portas, isso é exemplificado nas Equações \ref{} onde a n-ésima porta, identificada como $j$, é definida como PLR.
+	
+	\begin{equation}
+		B_j = A_j -\frac{A_1+A_2+...+A_{n-1}+A_j}{(R_1+R_2+...+R_{n-1})+R_j}.2.R_j 
+	\end{equation}  
+	\begin{equation}
+		B_j = A_j -\frac{A_1+A_2+...+A_{n-1}+A_j}{(R_1+R_2+...+R_{n-1})+(R_1+R_2+...+R_{n-1})}.2.(R_1+R_2+...+R_{n-1}) 
+	\end{equation}
+	\begin{equation}
+		B_j = -(A_1+A_2+...+A_{n-1})
+	\end{equation}
+	
+	Para um conector com a n-ésima porta sendo uma PLR pode-se então calcular que a reflexão para as demais portas baseando-se no resultado da Equação \ref{eqDefinicaoSerie4} , que não a PLR é dada de acordo com as Equações sendo $R_{plr}$ a resistência da PLR.
+	
+	\begin{equation}
+		B_i = A_i - \frac{R_i}{R_1+R_2+...R_{n-1}+R_{plr}}.(A_1+A_2+...A_n)
+	\end{equation}
+	
+	\begin{equation}
+		B_i = A_i - \frac{R_i}{R_1+R_2+...+R_{n-1}}.(A_1+A_2+...+A_n)
+	\end{equation}
+	
+	Pode-se então definir um novo $\gamma$ conforme a Equação \ref{} e tem-se a reflexão simplificadamente de acordo com a Equação \ref{}
+	
+	\begin{equation}
+		\gamma_i = \frac{R_i}{R_1+R_2+...+R_{n-1}}
+	\end{equation} 
+	
+	\begin{equation}
+		B_i = A_i - \gamma_i.(A_1+A_2+...+A_n)
+	\end{equation}
+
+	É importante ressaltar que a soma deste novo $\gamma$ para todas as portas, que não a PLR, deve dar um total de 1.
+	
+		%=========================================================================
+		\subsubsection{Conexões em paralelo}
+		%=========================================================================
+	
+	Para uma conexão em paralelo de $n$ elementos conforme indicado na Figura \ref{}, as correntes e tensões podem ser calculadas conforme as Equações \ref{} e \ref{}:
+	
+	\begin{equation}
+		V_1 = V_2 = ... = V_n
+	\end{equation}
+	
+	\begin{equation}
+		\sum_{i=1}^{n} I_i = 0
+	\end{equation}
+	
 	
 	\subsection{Amplificadores operacionais no domínio W}
 	\subsection{Não linearidades no domínio W}

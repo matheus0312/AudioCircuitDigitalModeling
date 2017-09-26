@@ -14,7 +14,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: ../references.bib
 Warning--entry type for "Bogason2017" isn't style-file defined
---line 20 of file ../references.bib
+--line 28 of file ../references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -24,45 +24,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 11 entries,
+You've used 12 entries,
             6714 wiz_defined-function locations,
-            1276 strings with 11276 characters,
-and the built_in function-call counts, 13629 in all, are:
-= -- 1570
-> -- 277
+            1281 strings with 11355 characters,
+and the built_in function-call counts, 14212 in all, are:
+= -- 1611
+> -- 292
 < -- 284
-+ -- 418
-- -- 85
-* -- 844
-:= -- 1745
-add.period$ -- 41
-call.type$ -- 11
-change.case$ -- 97
-chr.to.int$ -- 23
-cite$ -- 10
-duplicate$ -- 1201
-empty$ -- 638
-format.name$ -- 396
-if$ -- 2830
++ -- 423
+- -- 90
+* -- 879
+:= -- 1828
+add.period$ -- 45
+call.type$ -- 12
+change.case$ -- 104
+chr.to.int$ -- 24
+cite$ -- 11
+duplicate$ -- 1230
+empty$ -- 695
+format.name$ -- 419
+if$ -- 2970
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 192
-newline$ -- 56
-num.names$ -- 50
-pop$ -- 281
+missing$ -- 209
+newline$ -- 60
+num.names$ -- 55
+pop$ -- 302
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 43
 quote$ -- 0
-skip$ -- 1285
+skip$ -- 1320
 stack$ -- 1
-substring$ -- 562
-swap$ -- 446
+substring$ -- 581
+swap$ -- 458
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 0
-while$ -- 71
+while$ -- 77
 width$ -- 0
-write$ -- 162
+write$ -- 176
 (There was 1 warning)

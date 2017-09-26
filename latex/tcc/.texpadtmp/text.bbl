@@ -54,6 +54,10 @@ ISBN 0471164747 (cloth : alk. paper). Dispon{\'\i}vel em:
 ISBN 9780138147570. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=LwQqAQAAMAAJ}.}
 
+\bibitem[Yeh 2008]{YehTutorial2008}
+\abntrefinfo{Yeh}{YEH}{2008}
+{YEH, D. \emph{Tutorial on Wave Digital Filters}. 2008. Tutorial.}
+
 \bibitem[Yeh e Smith 2008]{Yeh2008}
 \abntrefinfo{Yeh e Smith}{YEH; SMITH}{2008}
 {YEH, D.; SMITH, J. Simulating guitar distortion circuits using wave digital
