@@ -18,8 +18,8 @@
 \contentsline {subsubsection}{\numberline {2.1.4.1}Resistores}{15}{subsubsection.2.1.4.1}
 \contentsline {subsubsection}{\numberline {2.1.4.2}Capacitores}{16}{subsubsection.2.1.4.2}
 \contentsline {subsubsection}{\numberline {2.1.4.3}Fonte de tens\IeC {\~a}o com resist\IeC {\^e}ncia n\IeC {\~a}o nula}{17}{subsubsection.2.1.4.3}
-\contentsline {subsubsection}{\numberline {2.1.4.4}Fonte de corrente com resist\IeC {\^e}ncia n\IeC {\~a}o nula}{18}{subsubsection.2.1.4.4}
-\contentsline {subsubsection}{\numberline {2.1.4.5}Resumo dos componentes de uma porta}{20}{subsubsection.2.1.4.5}
+\contentsline {subsubsection}{\numberline {2.1.4.4}Fonte de corrente com resist\IeC {\^e}ncia n\IeC {\~a}o nula}{19}{subsubsection.2.1.4.4}
+\contentsline {subsubsection}{\numberline {2.1.4.5}Resumo dos componentes de uma porta}{19}{subsubsection.2.1.4.5}
 \contentsline {subsection}{\numberline {2.1.5}Conex\IeC {\~o}es no dom\IeC {\'\i }nio W}{20}{subsection.2.1.5}
 \contentsline {subsubsection}{\numberline {2.1.5.1}Conex\IeC {\~o}es em s\IeC {\'e}rie}{20}{subsubsection.2.1.5.1}
 \contentsline {subsubsection}{\numberline {2.1.5.2}Conex\IeC {\~o}es em paralelo}{22}{subsubsection.2.1.5.2}
