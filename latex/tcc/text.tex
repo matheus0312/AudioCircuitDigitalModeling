@@ -177,10 +177,6 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 	\subsection{Transformação bilinear}
 	%=========================================================================
 	
-	\begin{equation}
-		\label{eqTransformacaoBilinear}
-		s = \frac{1}{2.f_s}.\frac{z-1}{z+1}
-	\end{equation}
 	
 	%=========================================================================
 	\subsection{Variáveis de onda}
@@ -305,7 +301,7 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 	
 	\begin{equation}
 		\label{eqDefinicaoCapacitorW3}
-		B = \frac{1-\frac{1}{2.f_s}.\frac{z-1}{z+1}.C.R_p}{1+\frac{1}{2.f_s}.\frac{z-1}{z+1}.C.R_p}.A
+		B = \frac{1-2.f_s\frac{z-1}{z+1}.C.R_p}{1+2.f_s.\frac{z-1}{z+1}.C.R_p}.A
 	\end{equation} 
 	
 	\begin{equation}
@@ -520,7 +516,7 @@ Para o modelamento de SNLs são comuns 3 diferentes abordagens: modelamento de c
 		B_i = A_i - \frac{R_i}{R_1+R_2+...+R_{n-1}}.(A_1+A_2+...+A_n)
 	\end{equation}
 	
-	Pode-se então definir um novo $\gamma$ conforme a Equação \ref{} e tem-se a reflexão simplificadamente de acordo com a Equação \ref{}
+	Pode-se então definir um novo $\gamma$ conforme a Equação \ref{} e tem-se a  reflexão simplificadamente de acordo com a Equação \ref{}
 	
 	\begin{equation}
 		\gamma_i = \frac{R_i}{R_1+R_2+...+R_{n-1}}
