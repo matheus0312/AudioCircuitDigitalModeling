@@ -11,36 +11,47 @@ n = length(t);
 % f = 10;
 % T = 1/f;
 
+Rv = 10e3;
 R1 = 10e3;
 R2 = 10e3;
-C3 = 1e-6;
-R3 = 1/(2*C3*f);
 
 V = sin(2*pi*f/fs*t);
 
 Ac = zeros(1,n);
 
+Rps11 = Rv;
+Rps12 = R1;
+Rps13 = Rps11 + Rps12;
+
+lps11 = Rps11 / Rps13;
+lps12 = Rps12 / Rps13;
+
+Rps21 = Rps13;
+Rps22 = R2;
+
+lps21 = 2*Rps21 / (Rps21 + Rps22);
+lps22 = 2*Rps22 / (Rps21 + Rps22);
+
 for i=2:n
-    A1 = V(i);
-    A2 = 0;
-    A3 = Ac(i-1);
+    As11 = V(i);
+    As12(i) = 0;
     
-    A0 = A1+A2+A3;
+    As2 = -(As11 + As12(i));
     
-    L1 = 2*R1/(R1+R2+R3);
-    L2 = 2*R2/(R1+R2+R3);
-    L3 = 2*R3/(R1+R2+R3);
-    Lt = (L1+L2+L3);
+    Br2(i) = 0;
     
-    B1(i) = A1 - L1*A0;
-    B2(i) = A2 - L2*A0;
-    B3(i) = A3 - L3*A0; 
-    Ac(i) = B3(i);
+    Ar2(i) = Br2(i)-lps22*(As2+Br2(i));
+    
+    Bs2 = As2 - lps21*(As2+Br2(i));
+    
+    Bs11 = As11 - lps11*(Bs2-As2);
+    
+    Bs12(i) = As12(i) - lps12*(Bs2-As2);
     
 end
 
-% Defines
-% Calculates the output magnitude in relation to input
-V1 = (B1+V)/2;
-V2 = (B2+A2)/2;
-V3 = (B3+A3)/2;
+Vr1 = (Bs12+As12)/2;
+Vr2 = (Ar2+Br2)/2
+
+plot(t,V,t,Vr1,t,Vr2)
+
