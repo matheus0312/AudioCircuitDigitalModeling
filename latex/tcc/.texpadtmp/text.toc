@@ -9,45 +9,45 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{13}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{14}{chapter.2}
-\contentsline {section}{\numberline {2.1}Filtros Digitais de Onda}{14}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Condi\IeC {\c c}\IeC {\~o}es de realiza\IeC {\c c}\IeC {\~a}o}{14}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Transforma\IeC {\c c}\IeC {\~a}o bilinear}{14}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Vari\IeC {\'a}veis de onda}{14}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Componentes de uma porta no dom\IeC {\'\i }nio W}{15}{subsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.4.1}Resistores}{15}{subsubsection.2.1.4.1}
-\contentsline {subsubsection}{\numberline {2.1.4.2}Capacitores}{16}{subsubsection.2.1.4.2}
-\contentsline {subsubsection}{\numberline {2.1.4.3}Fonte de tens\IeC {\~a}o com resist\IeC {\^e}ncia n\IeC {\~a}o nula}{17}{subsubsection.2.1.4.3}
-\contentsline {subsubsection}{\numberline {2.1.4.4}Fonte de corrente com resist\IeC {\^e}ncia n\IeC {\~a}o nula}{19}{subsubsection.2.1.4.4}
-\contentsline {subsubsection}{\numberline {2.1.4.5}Resumo dos componentes de uma porta}{19}{subsubsection.2.1.4.5}
-\contentsline {subsection}{\numberline {2.1.5}Conex\IeC {\~o}es no dom\IeC {\'\i }nio W}{20}{subsection.2.1.5}
-\contentsline {subsubsection}{\numberline {2.1.5.1}Conex\IeC {\~o}es em s\IeC {\'e}rie}{20}{subsubsection.2.1.5.1}
-\contentsline {subsubsection}{\numberline {2.1.5.2}Conex\IeC {\~o}es em paralelo}{22}{subsubsection.2.1.5.2}
-\contentsline {subsection}{\numberline {2.1.6}Amplificadores operacionais no dom\IeC {\'\i }nio W}{22}{subsection.2.1.6}
-\contentsline {subsection}{\numberline {2.1.7}N\IeC {\~a}o linearidades no dom\IeC {\'\i }nio W}{22}{subsection.2.1.7}
-\contentsline {section}{\numberline {2.2}Espa\IeC {\c c}o de Estados}{22}{section.2.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Wave Digital Filters}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Condi\IeC {\c c}\IeC {\~o}es de realiza\IeC {\c c}\IeC {\~a}o}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Transforma\IeC {\c c}\IeC {\~a}o bilinear}{15}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Vari\IeC {\'a}veis de onda}{15}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Componentes de uma porta no dom\IeC {\'\i }nio W}{16}{subsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.4.1}Resistores}{16}{subsubsection.2.1.4.1}
+\contentsline {subsubsection}{\numberline {2.1.4.2}Capacitores}{18}{subsubsection.2.1.4.2}
+\contentsline {subsubsection}{\numberline {2.1.4.3}Fonte de tens\IeC {\~a}o com resist\IeC {\^e}ncia n\IeC {\~a}o nula}{19}{subsubsection.2.1.4.3}
+\contentsline {subsubsection}{\numberline {2.1.4.4}Fonte de corrente com resist\IeC {\^e}ncia n\IeC {\~a}o nula}{20}{subsubsection.2.1.4.4}
+\contentsline {subsubsection}{\numberline {2.1.4.5}Resumo dos componentes de uma porta}{21}{subsubsection.2.1.4.5}
+\contentsline {subsection}{\numberline {2.1.5}Conex\IeC {\~o}es no dom\IeC {\'\i }nio W}{21}{subsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.5.1}Conex\IeC {\~o}es em s\IeC {\'e}rie}{22}{subsubsection.2.1.5.1}
+\contentsline {subsubsection}{\numberline {2.1.5.2}Conex\IeC {\~o}es em paralelo}{23}{subsubsection.2.1.5.2}
+\contentsline {subsubsection}{\numberline {2.1.5.3}Resumo das conex\IeC {\~o}es}{25}{subsubsection.2.1.5.3}
+\contentsline {subsection}{\numberline {2.1.6}N\IeC {\~a}o linearidades no dom\IeC {\'\i }nio W}{25}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}Amplificadores operacionais no dom\IeC {\'\i }nio W}{25}{subsection.2.1.7}
+\contentsline {section}{\numberline {2.2}Espa\IeC {\c c}o de Estados}{26}{section.2.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia Experimental}}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Pedais a serem modelados}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}Modelamento em filtro digital de onda}{23}{section.3.2}
-\contentsline {section}{\numberline {3.3}C\IeC {\'o}digo spice do circuito}{23}{section.3.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia Experimental}}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pedais a serem modelados}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Modelamento em filtro digital de onda}{27}{section.3.2}
+\contentsline {section}{\numberline {3.3}C\IeC {\'o}digo spice do circuito}{27}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Resultados circuito 1}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Resultados circuito 2}{24}{section.4.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Resultados circuito 1}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Resultados circuito 2}{28}{section.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{25}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{29}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Propostas de Trabalhos Futuros}}{26}{chapter.6}
-\vspace {\cftbeforechapterskip }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Propostas de Trabalhos Futuros}}{30}{chapter.6}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias Bibliogr\'aficas}}{27}{section*.25}
+\contentsline {chapter}{\uppercase {Refer\^encias Bibliogr\'aficas}}{31}{section*.27}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{28}{section*.26}
+\contentsline {part}{\uppercase {Ap\^endices}}{33}{section*.28}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{29}{section*.27}
+\contentsline {part}{\uppercase {Anexos}}{34}{section*.29}

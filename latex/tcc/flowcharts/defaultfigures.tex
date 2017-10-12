@@ -1,0 +1,58 @@
+\tikzset{
+    ResistorRfp/.pic={
+  	  \draw 
+  	  	\pgfextra{	%MAkes center resistor smaller
+  	  		\ctikzset{bipoles/resistor/height=0.15}
+   			\ctikzset{bipoles/resistor/width=0.4}}
+  	  (0,0) -- (0,2)	%Square
+  	  (0,2) -- (2,2)	%Square
+  	  (2,2) -- (2,0)	%Square
+  	  (2,0) -- (0,0)	%Square
+   	  (1.0,0.5) to[R] (1.0,1.5)	%Center Resistor
+  	  (1.5,0) -- (1.5,0.25)	%Lower T
+  	  (1.25,0.25) -- (1.75,0.25)	%Lower T
+  	  ;
+    }}
+
+
+%	\begin{circuitikz}
+%  	  \draw 
+%  	  	\pgfextra{	%MAkes center resistor smaller
+%  	  		\ctikzset{bipoles/resistor/height=0.15}
+%   			\ctikzset{bipoles/resistor/width=0.4}}
+%  	  (0,0) -- (0,2)	%Square
+%  	  (0,2) -- (2,2)	%Square
+%  	  (2,2) -- (2,0)	%Square
+%  	  (2,0) -- (0,0)	%Square
+%   	  (1.0,0.5) to[R] (1.0,1.5)	%Center Resistor
+%  	  (1.5,0) -- (1.5,0.25)	%Lower T
+%  	  (1.25,0.25) -- (1.75,0.25)	%Lower T
+%  	  ;
+%  	\end{circuitikz}
+%  	
+%  	\begin{circuitikz}
+%		
+%  	  \draw 
+%  	  (0,0) -- (0,2)	%Square
+%  	  (0,2) -- (2,2)	%Square
+%  	  (2,2) -- (2,0)	%Square
+%  	  (2,0) -- (0,0)	%Square
+%   	  (1.1,0.5) -- (1.1,1.5)	%Center line
+%  	  (0.9,0.5) -- (0.9,1.5)	%Center line
+%  	  (1.5,0) -- (1.5,0.25)	%Lower T
+%  	  (1.25,0.25) -- (1.75,0.25)	%Lower T
+%  	  ;
+%  	\end{circuitikz}
+%  	
+%  	\begin{circuitikz}
+%  	  \draw 
+%  	  (0,0) -- (0,2)	%Square
+%  	  (0,2) -- (2,2)	%Square
+%  	  (2,2) -- (2,0)	%Square
+%  	  (2,0) -- (0,0)	%Square
+%   	  (0.5,1) -- (1.5,1)	%Center line
+%  	  (1.5,0) -- (1.5,0.25)	%Lower T
+%  	  (1.25,0.25) -- (1.75,0.25)	%Lower T
+%  	  (1,1) circle (0.1)	%Central circle
+%  	  ;
+%  	\end{circuitikz}

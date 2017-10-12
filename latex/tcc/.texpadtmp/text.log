@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.28)  26 SEP 2017 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.28)  8 OCT 2017 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1370,43 +1370,66 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box70
 \@float@everytoks=\toks48
 \@floatcapt=\box71
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2015/05/15 The CircuiTikz circuit drawing package version 0.4
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/circuitikz.code.tex
+\pgf@circ@Rlen=\dimen222
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircmath.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircnpoles.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/pgfcircinputarrows.tex)) (/usr/local/texlive/2015/texmf-dist/tex/generic/circuitikz/circuitikz1.code.tex
+\pgf@circ@res@up=\dimen223
+\pgf@circ@res@down=\dimen224
+\pgf@circ@res@zero=\dimen225
+\pgf@circ@res@left=\dimen226
+\pgf@circ@res@right=\dimen227
+\pgf@circ@res@other=\dimen228
+Normal \dimen register pool exhausted, switching to extended pool.
+\pgf@circ@res@step=\dimen256
+\pgf@circ@res@temp=\dimen257
+\pgfstartlinewidth=\dimen258
+)) (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2013/06/24 v3.0.0 (rcs-revision 1.1)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 106.
-)
+Package hyperref Info: Option `colorlinks' set `true' on input line 109.
+) (./flowcharts/defaultfigures.tex)
 \text@idxfile=\write5
 \openout5 = `text.idx'.
 
 
 Writing index file text.idx 
-(/Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.aux)
+(/Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.aux
+
+LaTeX Warning: Label `secFundWdfComp' multiply defined.
+
+)
 \openout1 = `text.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 22.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 22.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1416,28 +1439,28 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 20.
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
-LaTeX Info: Redefining \degres on input line 20.
-LaTeX Info: Redefining \dots on input line 20.
-LaTeX Info: Redefining \up on input line 20.
+LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \degres on input line 22.
+LaTeX Info: Redefining \dots on input line 22.
+LaTeX Info: Redefining \up on input line 22.
 \myptabbox=\box73
 \myptabboxwidth=\skip213
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 20.
+(lastpage)             ! on input line 22.
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count214
-\scratchdimen=\dimen222
+\scratchdimen=\dimen259
 \scratchbox=\box74
 \nofMPsegments=\count215
 \nofMParguments=\count216
 \everyMPshowfont=\toks49
 \MPscratchCnt=\count217
-\MPscratchDim=\dimen223
+\MPscratchDim=\dimen260
 \MPnumerator=\count218
 \makeMPintoPDFobject=\count219
 \everyMPtoPDFconversion=\toks50
@@ -1452,7 +1475,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 20.
+LaTeX Info: Redefining \microtypecontext on input line 22.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1469,7 +1492,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 24.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 26.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1480,75 +1503,75 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 28.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 26.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 28.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 28.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 26.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 28.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 26.
+(Font)              <12> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 26.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 26.
+(Font)              <6> on input line 28.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 
+l.28 
       [1
 
 
 
 ]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 52.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 54.
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 52--52
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 54--54
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 52--52
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 54--54
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 52--52
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 54--54
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 52--52
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 54--54
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 55--55
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 57--57
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 55--55
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 57--57
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 55--55
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 57--57
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
 
-Overfull \hbox (12.39192pt too wide) in paragraph at lines 55--55
+Overfull \hbox (12.39192pt too wide) in paragraph at lines 57--57
 [][][][]\T1/lmr/m/n/12 (-20) Atualizar 
  []
 
@@ -1585,238 +1608,252 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 185--185
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 170.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (14.65158pt too wide) in paragraph at lines 175--175
+[][][][]\T1/lmr/m/n/12 (-20) Descrever 
+ []
+
+
+Overfull \hbox (14.65158pt too wide) in paragraph at lines 175--175
+[][][][]\T1/lmr/m/n/12 (-20) Descrever 
+ []
+
+
+Overfull \hbox (14.65158pt too wide) in paragraph at lines 175--175
+[][][][]\T1/lmr/m/n/12 (-20) Descrever 
+ []
+
+
+Overfull \hbox (14.65158pt too wide) in paragraph at lines 175--175
+[][][][]\T1/lmr/m/n/12 (-20) Descrever 
+ []
+
+[14]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 219.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 219.
+
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 250--250
 [][][][]\T1/lmr/m/n/12 (-20) Adicionar 
  []
 
 
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 185--185
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 250--250
 [][][][]\T1/lmr/m/n/12 (-20) Adicionar 
  []
 
 
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 185--185
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 250--250
 [][][][]\T1/lmr/m/n/12 (-20) Adicionar 
  []
 
 
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 185--185
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 250--250
 [][][][]\T1/lmr/m/n/12 (-20) Adicionar 
  []
 
+[15
 
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 194--194
-[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
- []
+] [16]
 
-
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 194--194
-[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
- []
-
-
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 194--194
-[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
- []
-
-
-Overfull \hbox (14.3114pt too wide) in paragraph at lines 194--194
-[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
- []
-
-
-LaTeX Warning: Marginpar on page 14 moved by 72.43964pt.
-
-[14
-
-]
-
-Package caption Warning: \label without proper \caption on input line 267.
+Package caption Warning: \label without proper \caption on input line 338.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `figResistorDominioW' on page 15 undefined on input line 255.
+LaTeX Warning: Reference `figFundWdfCompRes1' on page 17 undefined on input line 326.
 
-[15] <images/resistor.png, id=252, 561.09625pt x 234.8775pt>
+<images/resistor.png, id=272, 561.09625pt x 234.8775pt>
 File: images/resistor.png Graphic file (type png)
  <use images/resistor.png>
-Package pdftex.def Info: images/resistor.png used on input line 269.
+Package pdftex.def Info: images/resistor.png used on input line 340.
 (pdftex.def)             Requested size: 280.54744pt x 117.43846pt.
+ [17 <./images/resistor.png>]
+
+LaTeX Warning: Reference `eqTransformacaoBilinear' on page 18 undefined on input line 370.
 
 
-LaTeX Warning: Reference `eqTransformacaoBilinear' on page 16 undefined on input line 299.
-
-[16 <./images/resistor.png>]
-
-Package caption Warning: \label without proper \caption on input line 330.
+Package caption Warning: \label without proper \caption on input line 401.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `figCapacitorDominioW' on page 17 undefined on input line 318.
+LaTeX Warning: Reference `figFundWdfCompCap1' on page 18 undefined on input line 389.
 
-<images/capacitor.png, id=281, 554.07pt x 272.01625pt>
+<images/capacitor.png, id=305, 554.07pt x 272.01625pt>
 File: images/capacitor.png Graphic file (type png)
  <use images/capacitor.png>
-Package pdftex.def Info: images/capacitor.png used on input line 332.
+Package pdftex.def Info: images/capacitor.png used on input line 403.
 (pdftex.def)             Requested size: 277.03432pt x 136.00778pt.
-
-
-Package caption Warning: \label without proper \caption on input line 348.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `figFonteTensaoModelada' on page 17 undefined on input line 340.
-
-<images/fonteTensaoModelada.png, id=290, 171.64125pt x 253.94875pt>
-File: images/fonteTensaoModelada.png Graphic file (type png)
- <use images/fonteTensaoModelada.png>
-Package pdftex.def Info: images/fonteTensaoModelada.png used on input line 350.
-(pdftex.def)             Requested size: 85.8204pt x 126.97406pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17 <./images/capacitor.png>]
-
-Package caption Warning: \label without proper \caption on input line 373.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `figFonteTensaoDominioW' on page 18 undefined on input line 362.
-
-<images/fonteTensaoDominioW.png, id=310, 534.99875pt x 249.93375pt>
-File: images/fonteTensaoDominioW.png Graphic file (type png)
- <use images/fonteTensaoDominioW.png>
-Package pdftex.def Info: images/fonteTensaoDominioW.png used on input line 375.
-(pdftex.def)             Requested size: 267.49872pt x 124.96657pt.
-
-
-Package caption Warning: \label without proper \caption on input line 392.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `figFonteCorrenteModelada' on page 18 undefined on input line 384.
-
-
-LaTeX Warning: Reference `TBD' on page 18 undefined on input line 384.
-
-[18 <./images/fonteTensaoModelada.png> <./images/fonteTensaoDominioW.png>] <images/fonteCorrenteModelada.png, id=326, 323.2075pt x 271.0125pt>
-File: images/fonteCorrenteModelada.png Graphic file (type png)
- <use images/fonteCorrenteModelada.png>
-Package pdftex.def Info: images/fonteCorrenteModelada.png used on input line 394.
-(pdftex.def)             Requested size: 161.60335pt x 135.5059pt.
-
+ [18]
 
 Package caption Warning: \label without proper \caption on input line 419.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `figFonteCorrenteDominioW' on page 19 undefined on input line 406.
+LaTeX Warning: Reference `figFundWdfCompFontTens1' on page 19 undefined on input line 411.
 
+<images/fonteTensaoModelada.png, id=327, 171.64125pt x 253.94875pt>
+File: images/fonteTensaoModelada.png Graphic file (type png)
+ <use images/fonteTensaoModelada.png>
+Package pdftex.def Info: images/fonteTensaoModelada.png used on input line 421.
+(pdftex.def)             Requested size: 85.8204pt x 126.97406pt.
+
+
+Package caption Warning: \label without proper \caption on input line 444.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `figFundWdfCompFontTens2' on page 19 undefined on input line 433.
+
+[19 <./images/capacitor.png> <./images/fonteTensaoModelada.png>] <images/fonteTensaoDominioW.png, id=345, 534.99875pt x 249.93375pt>
+File: images/fonteTensaoDominioW.png Graphic file (type png)
+ <use images/fonteTensaoDominioW.png>
+Package pdftex.def Info: images/fonteTensaoDominioW.png used on input line 446.
+(pdftex.def)             Requested size: 267.49872pt x 124.96657pt.
+
+
+Package caption Warning: \label without proper \caption on input line 463.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `figFundWdfCompFontCorr1' on page 20 undefined on input line 455.
+
+
+LaTeX Warning: Reference `TBD' on page 20 undefined on input line 455.
+
+<images/fonteCorrenteModelada.png, id=351, 323.2075pt x 271.0125pt>
 File: images/fonteCorrenteModelada.png Graphic file (type png)
-<use images/fonteCorrenteModelada.png>
-Package pdftex.def Info: images/fonteCorrenteModelada.png used on input line 421.
+ <use images/fonteCorrenteModelada.png>
+Package pdftex.def Info: images/fonteCorrenteModelada.png used on input line 465.
 (pdftex.def)             Requested size: 161.60335pt x 135.5059pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `tbd' on page 19 undefined on input line 430.
+Package caption Warning: \label without proper \caption on input line 490.
+See the caption package documentation for explanation.
 
 
-Overfull \hbox (12.1982pt too wide) in paragraph at lines 432--432
+LaTeX Warning: Reference `figFundWdfCompFontCorr2' on page 20 undefined on input line 477.
+
+[20 <./images/fonteTensaoDominioW.png>]
+File: images/fonteCorrenteModelada.png Graphic file (type png)
+ <use images/fonteCorrenteModelada.png>
+Package pdftex.def Info: images/fonteCorrenteModelada.png used on input line 492.
+(pdftex.def)             Requested size: 161.60335pt x 135.5059pt.
+
+
+LaTeX Warning: Reference `tbd' on page 21 undefined on input line 501.
+
+
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 503--503
 [][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
 
-Overfull \hbox (12.1982pt too wide) in paragraph at lines 432--432
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 503--503
 [][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
 
-Overfull \hbox (12.1982pt too wide) in paragraph at lines 432--432
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 503--503
 [][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
 
-Overfull \hbox (12.1982pt too wide) in paragraph at lines 432--432
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 503--503
 [][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
-[19 <./images/fonteCorrenteModelada.png>]
 
-LaTeX Warning: Reference `TBD' on page 20 undefined on input line 445.
+LaTeX Warning: Reference `TBD' on page 21 undefined on input line 516.
+
+[21 <./images/fonteCorrenteModelada.png>] [22]
+
+LaTeX Warning: Reference `' on page 23 undefined on input line 619.
+
+[23] [24]
+
+LaTeX Warning: Reference `tbd' on page 25 undefined on input line 710.
 
 
-Overfull \hbox (27.81238pt too wide) in paragraph at lines 447--447
-[][][][]\T1/lmr/m/n/12 (-20) Transformar 
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 712--712
+[][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
 
-Overfull \hbox (27.81238pt too wide) in paragraph at lines 447--447
-[][][][]\T1/lmr/m/n/12 (-20) Transformar 
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 712--712
+[][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
 
-Overfull \hbox (27.81238pt too wide) in paragraph at lines 447--447
-[][][][]\T1/lmr/m/n/12 (-20) Transformar 
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 712--712
+[][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
 
-Overfull \hbox (27.81238pt too wide) in paragraph at lines 447--447
-[][][][]\T1/lmr/m/n/12 (-20) Transformar 
+Overfull \hbox (12.1982pt too wide) in paragraph at lines 712--712
+[][][][]\T1/lmr/m/n/12 (-20) adicionar 
  []
 
 
-LaTeX Warning: Reference `eqDefinciaoSerie2' on page 20 undefined on input line 459.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 728--728
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
 
-LaTeX Warning: Reference `eqDefinciaoSerie2' on page 20 undefined on input line 471.
-
-[20]
-
-LaTeX Warning: Reference `' on page 21 undefined on input line 483.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 728--728
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 483.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 728--728
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
 
-LaTeX Warning: Reference `eqDefinciaoSerie4' on page 21 undefined on input line 495.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 728--728
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 495.
+LaTeX Warning: Marginpar on page 25 moved by 15.6863pt.
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 497.
-
-[21]
-
-LaTeX Warning: Reference `' on page 22 undefined on input line 519.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 730--730
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 519.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 730--730
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 535.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 730--730
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 535.
+Overfull \hbox (14.3114pt too wide) in paragraph at lines 730--730
+[][][][]\T1/lmr/m/n/12 (-20) Adicionar 
+ []
 
+[25] [26] [27
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 535.
+] [28
 
-[22] [23
-
-] [24
-
-] [25
+] [29
 
 ] (/Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.bbl (/Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.brf)
 \tf@brf=\write6
 \openout6 = `text.brf'.
 
- [26
+ [30
 
 ]
 
@@ -1824,22 +1861,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-) [27
+[31
+
+]) [32]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 780.
+
+[33
+
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 593.
+(hyperref)                removing `\uppercase' on input line 787.
 
-[28
-
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 600.
-
-[29
+[34
 
 
 ] 
@@ -1853,11 +1890,11 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `text.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 789.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 789.
 (/Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 789.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 789.
 Package rerunfilecheck Info: File `text.brf' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1865,23 +1902,23 @@ Package rerunfilecheck Info: File `text.brf' has not changed.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 789.
  ) 
 Here is how much of TeX's memory you used:
- 30550 strings out of 493089
- 562327 string characters out of 6134842
- 828157 words of memory out of 5000000
- 33224 multiletter control sequences out of 15000+600000
- 77852 words of font info for 107 fonts, out of 8000000 for 9000
+ 36085 strings out of 493089
+ 727908 string characters out of 6134842
+ 1082715 words of memory out of 5000000
+ 38654 multiletter control sequences out of 15000+600000
+ 88684 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,92p,1076b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on /Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.pdf (30 pages, 347293 bytes).
+ 62i,13n,92p,1076b,940s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on /Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/latex/tcc/.texpadtmp/text.pdf (35 pages, 383879 bytes).
 PDF statistics:
- 671 PDF objects out of 1000 (max. 8388607)
- 595 compressed objects within 6 object streams
- 150 named destinations out of 1000 (max. 500000)
- 28014 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 794 PDF objects out of 1000 (max. 8388607)
+ 710 compressed objects within 8 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 30070 words of extra memory for PDF output out of 35830 (max. 10000000)
 

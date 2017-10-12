@@ -59,7 +59,7 @@ for i=2:n
 
     D1p = Up + Dc - Urt;
     D2p = Up + Dc - Us;
-    D1s(i) = Urv - l1s*(D2p - Us);
+     (i) = Urv - l1s*(D2p - Us);
     D2s = Uv - l2s * (D2p - Us);
 end
 
