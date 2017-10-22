@@ -1,0 +1,26 @@
+* /Users/Matheus/ProjetoDeDiplomacao/AudioCircuitDigitalModeling/implementation/ltspice/MxrDistortionPlus.asc
+R1 Vin Vc 10k
+R2 v+ 0 1meg
+C1 Vc v+ 0.01µ
+XU1 v+ v- N003 N006 AmpOut level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+V1 N003 0 100
+R3 N001 v- 4.7k
+C2 0 N001 0.047µ
+R5 v- AmpOut 1meg
+R6 AmpOut N004 10k
+C3 Vout 0 0.001µ
+R7 Vout 0 10k
+V3 N006 0 -100
+V2 Vin 0 wavefile = SineClear80.wav
+C4 N004 Vout 1µ
+D1 Vout 0 1N34a
+D2 0 Vout 1N34a
+.model D D
+.lib /Users/Matheus/Library/Application Support/LTspice/lib/cmp/standard.dio
+.tran 2.5
+.wave "output.wav" 16 44.1k V(Vout)
+.tr
+.inc 1N34a.txt
+.lib UniversalOpamps2.sub
+.backanno
+.end
